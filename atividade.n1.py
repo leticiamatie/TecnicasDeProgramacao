@@ -30,3 +30,21 @@ while venceu == 0:
 	elif jogadas >=7:
 		print("Você perdeu :( ")
 		break;
+	while sala == 6:
+		print("Voce esta na sala:",sala)
+		print("jogadas restantes:",7-jogadas)
+		print("Escolha seu caminho:")
+		print("[2] - Caminho preto")
+		escolha = int(input(""))
+		while escolha == 1:
+			print("")
+			print("caminho indisponível!")
+			print("")
+			print("Escolha seu caminho:")
+			print("[2] - Caminho preto")
+			escolha = int(input(""))
+		break;
+	while escolha == 2 and sala == 6:
+		sala +=2
+		jogadas +=1
+		break;
