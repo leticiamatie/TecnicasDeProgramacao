@@ -48,7 +48,7 @@ while venceu == 0:
 		sala +=2
 		jogadas +=1
 		break;
-while sala == 8:
+	while sala == 8:
 		print("Voce esta na sala:",sala)
 		print("jogadas restantes:",7-jogadas)
 		print("Escolha seu caminho:")
