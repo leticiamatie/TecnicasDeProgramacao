@@ -23,7 +23,7 @@ while venceu == 0:
 		sala+=2
 		jogadas+=1
 		break;
-        if sala == 9:
+	if sala == 9:
 		print("Casa 9 você venceu!!")
 		venceu == 1	
 		break;
