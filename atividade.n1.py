@@ -23,14 +23,7 @@ while venceu == 0:
 		sala+=2
 		jogadas+=1
 		break;
-	if sala == 9:
-		print("Casa 9 você venceu!!")
-		venceu == 1	
-		break;
-	elif jogadas >=7:
-		print("Você perdeu :( ")
-		break;
-	while sala == 6:
+	while sala == 8:
 		print("Voce esta na sala:",sala)
 		print("jogadas restantes:",7-jogadas)
 		print("Escolha seu caminho:")
@@ -64,3 +57,11 @@ while venceu == 0:
 		jogadas+=1
 		sala= randint(1,5)
 		break;
+	if sala == 9:
+		print("Casa 9 você venceu!!")
+		venceu == 1	
+		break;
+	elif jogadas >=7:
+		print("Você perdeu :( ")
+		break;
+	
